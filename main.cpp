@@ -175,7 +175,8 @@ void parse_config() {
 	}
 	catch (const std::exception&)
 	{
-		MessageBoxA(0, "Put this app ", "Incorect path", 0);
+		MessageBoxA(0, "Put this app into csgo folder", "Incorect path", 0);
+		exit(-1);
 	}
 	
 }
