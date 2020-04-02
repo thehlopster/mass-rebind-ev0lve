@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Users\hlop\source\repos\mass_rebind_ev0lve\main.cpp" />
+    <ClCompile Include="D:\Users\hlop\source\repos\mass_rebind_ev0lve\ui\ui\c_ui.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Users\hlop\source\repos\mass_rebind_ev0lve\ui\ui\c_ui_button.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Users\hlop\source\repos\mass_rebind_ev0lve\ui\ui\c_ui_checkbox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Users\hlop\source\repos\mass_rebind_ev0lve\ui\ui\c_ui_colorpicker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Users\hlop\source\repos\mass_rebind_ev0lve\ui\ui\c_ui_dropdown.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Users\hlop\source\repos\mass_rebind_ev0lve\ui\ui\c_ui_element.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Users\hlop\source\repos\mass_rebind_ev0lve\ui\ui\c_ui_group.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Users\hlop\source\repos\mass_rebind_ev0lve\ui\ui\c_ui_hotkey.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Users\hlop\source\repos\mass_rebind_ev0lve\ui\ui\c_ui_label.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Users\hlop\source\repos\mass_rebind_ev0lve\ui\ui\c_ui_listbox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Users\hlop\source\repos\mass_rebind_ev0lve\ui\ui\c_ui_multiselect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Users\hlop\source\repos\mass_rebind_ev0lve\ui\ui\c_ui_products.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Users\hlop\source\repos\mass_rebind_ev0lve\ui\ui\c_ui_slider_float.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Users\hlop\source\repos\mass_rebind_ev0lve\ui\ui\c_ui_slider_int.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Users\hlop\source\repos\mass_rebind_ev0lve\ui\ui\c_ui_spinner.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Users\hlop\source\repos\mass_rebind_ev0lve\ui\ui\c_ui_tab.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Users\hlop\source\repos\mass_rebind_ev0lve\ui\ui\c_ui_textbox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Users\hlop\source\repos\mass_rebind_ev0lve\ui\ui\c_ui_window.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Users\hlop\source\repos\mass_rebind_ev0lve\ui\imgui.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Users\hlop\source\repos\mass_rebind_ev0lve\ui\imgui_demo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Users\hlop\source\repos\mass_rebind_ev0lve\ui\imgui_draw.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Users\hlop\source\repos\mass_rebind_ev0lve\ui\imgui_impl_dx9.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Users\hlop\source\repos\mass_rebind_ev0lve\ui\imgui_widgets.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Users\hlop\source\repos\mass_rebind_ev0lve\ui\imgui_impl_win32.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="json.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Users\hlop\source\repos\mass_rebind_ev0lve\ui\ui\c_ui.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Users\hlop\source\repos\mass_rebind_ev0lve\ui\ui\c_ui_button.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Users\hlop\source\repos\mass_rebind_ev0lve\ui\ui\c_ui_checkbox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Users\hlop\source\repos\mass_rebind_ev0lve\ui\ui\c_ui_colorpicker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Users\hlop\source\repos\mass_rebind_ev0lve\ui\ui\c_ui_dropdown.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Users\hlop\source\repos\mass_rebind_ev0lve\ui\ui\c_ui_element.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Users\hlop\source\repos\mass_rebind_ev0lve\ui\ui\c_ui_group.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Users\hlop\source\repos\mass_rebind_ev0lve\ui\ui\c_ui_hotkey.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Users\hlop\source\repos\mass_rebind_ev0lve\ui\ui\c_ui_label.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Users\hlop\source\repos\mass_rebind_ev0lve\ui\ui\c_ui_listbox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Users\hlop\source\repos\mass_rebind_ev0lve\ui\ui\c_ui_multiselect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Users\hlop\source\repos\mass_rebind_ev0lve\ui\ui\c_ui_products.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Users\hlop\source\repos\mass_rebind_ev0lve\ui\ui\c_ui_slider_float.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Users\hlop\source\repos\mass_rebind_ev0lve\ui\ui\c_ui_slider_int.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Users\hlop\source\repos\mass_rebind_ev0lve\ui\ui\c_ui_spinner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Users\hlop\source\repos\mass_rebind_ev0lve\ui\ui\c_ui_tab.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Users\hlop\source\repos\mass_rebind_ev0lve\ui\ui\c_ui_textbox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Users\hlop\source\repos\mass_rebind_ev0lve\ui\ui\c_ui_window.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Users\hlop\source\repos\mass_rebind_ev0lve\ui\font.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Users\hlop\source\repos\mass_rebind_ev0lve\ui\imconfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Users\hlop\source\repos\mass_rebind_ev0lve\ui\imgui.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Users\hlop\source\repos\mass_rebind_ev0lve\ui\imgui_impl_dx9.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Users\hlop\source\repos\mass_rebind_ev0lve\ui\imgui_impl_win32.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Users\hlop\source\repos\mass_rebind_ev0lve\ui\imgui_internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Users\hlop\source\repos\mass_rebind_ev0lve\ui\imstb_rectpack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Users\hlop\source\repos\mass_rebind_ev0lve\ui\imstb_textedit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Users\hlop\source\repos\mass_rebind_ev0lve\ui\imstb_truetype.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Users\hlop\source\repos\mass_rebind_ev0lve\main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Users\hlop\source\repos\mass_rebind_ev0lve\ui\spinners.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{E10CF704-8ACE-3399-B781-1D9A2EDC133B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{FBD61DA5-FE51-3108-9443-E6538D4F372E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

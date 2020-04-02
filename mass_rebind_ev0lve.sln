@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29926.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mass rebind ev0lve", "mass_rebind_ev0lve.vcxproj", "{E35C29C1-68F3-3806-A501-AA57E299CCFD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		MinSizeRel|x64 = MinSizeRel|x64
+		MinSizeRel|x86 = MinSizeRel|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+		RelWithDebInfo|x64 = RelWithDebInfo|x64
+		RelWithDebInfo|x86 = RelWithDebInfo|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E35C29C1-68F3-3806-A501-AA57E299CCFD}.Debug|x64.ActiveCfg = Debug|x64
+		{E35C29C1-68F3-3806-A501-AA57E299CCFD}.Debug|x64.Build.0 = Debug|x64
+		{E35C29C1-68F3-3806-A501-AA57E299CCFD}.Debug|x86.ActiveCfg = Debug|Win32
+		{E35C29C1-68F3-3806-A501-AA57E299CCFD}.Debug|x86.Build.0 = Debug|Win32
+		{E35C29C1-68F3-3806-A501-AA57E299CCFD}.MinSizeRel|x64.ActiveCfg = MinSizeRel|x64
+		{E35C29C1-68F3-3806-A501-AA57E299CCFD}.MinSizeRel|x64.Build.0 = MinSizeRel|x64
+		{E35C29C1-68F3-3806-A501-AA57E299CCFD}.MinSizeRel|x86.ActiveCfg = MinSizeRel|Win32
+		{E35C29C1-68F3-3806-A501-AA57E299CCFD}.MinSizeRel|x86.Build.0 = MinSizeRel|Win32
+		{E35C29C1-68F3-3806-A501-AA57E299CCFD}.Release|x64.ActiveCfg = Release|x64
+		{E35C29C1-68F3-3806-A501-AA57E299CCFD}.Release|x64.Build.0 = Release|x64
+		{E35C29C1-68F3-3806-A501-AA57E299CCFD}.Release|x86.ActiveCfg = Release|Win32
+		{E35C29C1-68F3-3806-A501-AA57E299CCFD}.Release|x86.Build.0 = Release|Win32
+		{E35C29C1-68F3-3806-A501-AA57E299CCFD}.RelWithDebInfo|x64.ActiveCfg = RelWithDebInfo|x64
+		{E35C29C1-68F3-3806-A501-AA57E299CCFD}.RelWithDebInfo|x64.Build.0 = RelWithDebInfo|x64
+		{E35C29C1-68F3-3806-A501-AA57E299CCFD}.RelWithDebInfo|x86.ActiveCfg = RelWithDebInfo|Win32
+		{E35C29C1-68F3-3806-A501-AA57E299CCFD}.RelWithDebInfo|x86.Build.0 = RelWithDebInfo|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {011A5C38-59AA-4F6F-B354-3A7660C51A1F}
+	EndGlobalSection
+EndGlobal
