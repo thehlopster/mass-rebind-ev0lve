@@ -13,7 +13,8 @@
 #include <d3dx9.h>
 #include <Shlobj.h>
 #include <WinInet.h>
-
+#include <locale>
+#include <codecvt>
 #include "ui/imgui.h"
 #include "ui/imgui_internal.h"
 #include "ui/imgui_impl_win32.h"
