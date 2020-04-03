@@ -146,18 +146,41 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 		g_device->Present(0, 0, 0, 0);
 	}
 }
+
+std::string ws2s(const std::wstring& wstr)
+{
+	using convert_typeX = std::codecvt_utf8<wchar_t>;
+	std::wstring_convert<convert_typeX, wchar_t> converterX;
+	return converterX.to_bytes(wstr);
+}
+
+//get key from registry
+LONG GetStringRegKey(HKEY hKey, const std::wstring& strValueName, std::wstring& strValue, const std::wstring& strDefaultValue)
+{
+	strValue = strDefaultValue;
+	WCHAR szBuffer[512];
+	DWORD dwBufferSize = sizeof(szBuffer);
+	ULONG nError;
+	nError = RegQueryValueExW(hKey, strValueName.c_str(), 0, NULL, (LPBYTE)szBuffer, &dwBufferSize);
+	if (ERROR_SUCCESS == nError)
+	{
+		strValue = szBuffer;
+	}
+	return nError;
+}
+
 //find ev0 cfg folder if !find return (current + ev0lve)
 std::string get_cfg_path() {
-	char szBuffer[1024];
-	GetLogicalDriveStrings(1024, szBuffer);
-	char* pch = szBuffer;
-	while (*pch) {
-		std::string dir = pch;
-		dir += "Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Global Offensive\\ev0lve";
-		if (fs::is_directory(dir)) {
-			return dir;
-		}
-		pch += 4;
+	HKEY k;
+	LONG r = RegOpenKeyExW(HKEY_LOCAL_MACHINE, L"SOFTWARE\\Wow6432Node\\Valve\\Steam", 0, KEY_READ, &k);
+	bool found(r == ERROR_SUCCESS);
+	std::wstring steamPath;
+	GetStringRegKey(k, L"InstallPath", steamPath, L"");
+	std::string dir = ws2s(steamPath) + "\\steamapps\\common\\Counter-Strike Global Offensive\\ev0lve";
+	RegCloseKey(k);
+	//add here vdf check
+	if (found && fs::is_directory(dir)) {
+		return dir;
 	}
 	return fs::current_path().string() + "\\ev0lve";
 }

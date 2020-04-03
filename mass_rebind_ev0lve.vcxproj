@@ -246,7 +246,6 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /w</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
@@ -282,8 +281,6 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64 /Zi</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>D:/Users/hlop/source/repos/mass_rebind_ev0lve/Release/mass_rebind_ev0lve.lib</ImportLibrary>
-      <ProgramDataBaseFile>D:/Users/hlop/source/repos/mass_rebind_ev0lve/Release/mass_rebind_ev0lve.pdb</ProgramDataBaseFile>
       <SubSystem>Windows</SubSystem>
     </Link>
     <ProjectReference>
@@ -520,61 +517,58 @@
     </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="D:\Users\hlop\source\repos\mass_rebind_ev0lve\main.cpp" />
-    <ClInclude Include="D:\Users\hlop\source\repos\mass_rebind_ev0lve\main.h" />
-    <ClInclude Include="D:\Users\hlop\source\repos\mass_rebind_ev0lve\ui\imconfig.h" />
-    <ClCompile Include="D:\Users\hlop\source\repos\mass_rebind_ev0lve\ui\imgui.cpp" />
-    <ClInclude Include="D:\Users\hlop\source\repos\mass_rebind_ev0lve\ui\imgui.h" />
-    <ClCompile Include="D:\Users\hlop\source\repos\mass_rebind_ev0lve\ui\imgui_demo.cpp" />
-    <ClCompile Include="D:\Users\hlop\source\repos\mass_rebind_ev0lve\ui\imgui_draw.cpp" />
-    <ClCompile Include="D:\Users\hlop\source\repos\mass_rebind_ev0lve\ui\imgui_impl_dx9.cpp" />
-    <ClInclude Include="D:\Users\hlop\source\repos\mass_rebind_ev0lve\ui\imgui_impl_dx9.h" />
-    <ClCompile Include="D:\Users\hlop\source\repos\mass_rebind_ev0lve\ui\imgui_impl_win32.cpp" />
-    <ClInclude Include="D:\Users\hlop\source\repos\mass_rebind_ev0lve\ui\imgui_impl_win32.h" />
-    <ClInclude Include="D:\Users\hlop\source\repos\mass_rebind_ev0lve\ui\imgui_internal.h" />
-    <ClCompile Include="D:\Users\hlop\source\repos\mass_rebind_ev0lve\ui\imgui_widgets.cpp" />
-    <ClInclude Include="D:\Users\hlop\source\repos\mass_rebind_ev0lve\ui\imstb_rectpack.h" />
-    <ClInclude Include="D:\Users\hlop\source\repos\mass_rebind_ev0lve\ui\imstb_textedit.h" />
-    <ClInclude Include="D:\Users\hlop\source\repos\mass_rebind_ev0lve\ui\imstb_truetype.h" />
-    <ClCompile Include="D:\Users\hlop\source\repos\mass_rebind_ev0lve\ui\ui\c_ui.cpp" />
-    <ClInclude Include="D:\Users\hlop\source\repos\mass_rebind_ev0lve\ui\ui\c_ui.h" />
-    <ClCompile Include="D:\Users\hlop\source\repos\mass_rebind_ev0lve\ui\ui\c_ui_button.cpp" />
-    <ClInclude Include="D:\Users\hlop\source\repos\mass_rebind_ev0lve\ui\ui\c_ui_button.h" />
-    <ClCompile Include="D:\Users\hlop\source\repos\mass_rebind_ev0lve\ui\ui\c_ui_checkbox.cpp" />
-    <ClInclude Include="D:\Users\hlop\source\repos\mass_rebind_ev0lve\ui\ui\c_ui_checkbox.h" />
-    <ClCompile Include="D:\Users\hlop\source\repos\mass_rebind_ev0lve\ui\ui\c_ui_colorpicker.cpp" />
-    <ClInclude Include="D:\Users\hlop\source\repos\mass_rebind_ev0lve\ui\ui\c_ui_colorpicker.h" />
-    <ClCompile Include="D:\Users\hlop\source\repos\mass_rebind_ev0lve\ui\ui\c_ui_dropdown.cpp" />
-    <ClInclude Include="D:\Users\hlop\source\repos\mass_rebind_ev0lve\ui\ui\c_ui_dropdown.h" />
-    <ClCompile Include="D:\Users\hlop\source\repos\mass_rebind_ev0lve\ui\ui\c_ui_element.cpp" />
-    <ClInclude Include="D:\Users\hlop\source\repos\mass_rebind_ev0lve\ui\ui\c_ui_element.h" />
-    <ClCompile Include="D:\Users\hlop\source\repos\mass_rebind_ev0lve\ui\ui\c_ui_group.cpp" />
-    <ClInclude Include="D:\Users\hlop\source\repos\mass_rebind_ev0lve\ui\ui\c_ui_group.h" />
-    <ClCompile Include="D:\Users\hlop\source\repos\mass_rebind_ev0lve\ui\ui\c_ui_hotkey.cpp" />
-    <ClInclude Include="D:\Users\hlop\source\repos\mass_rebind_ev0lve\ui\ui\c_ui_hotkey.h" />
-    <ClCompile Include="D:\Users\hlop\source\repos\mass_rebind_ev0lve\ui\ui\c_ui_label.cpp" />
-    <ClInclude Include="D:\Users\hlop\source\repos\mass_rebind_ev0lve\ui\ui\c_ui_label.h" />
-    <ClCompile Include="D:\Users\hlop\source\repos\mass_rebind_ev0lve\ui\ui\c_ui_listbox.cpp" />
-    <ClInclude Include="D:\Users\hlop\source\repos\mass_rebind_ev0lve\ui\ui\c_ui_listbox.h" />
-    <ClCompile Include="D:\Users\hlop\source\repos\mass_rebind_ev0lve\ui\ui\c_ui_multiselect.cpp" />
-    <ClInclude Include="D:\Users\hlop\source\repos\mass_rebind_ev0lve\ui\ui\c_ui_multiselect.h" />
-    <ClCompile Include="D:\Users\hlop\source\repos\mass_rebind_ev0lve\ui\ui\c_ui_slider_float.cpp" />
-    <ClInclude Include="D:\Users\hlop\source\repos\mass_rebind_ev0lve\ui\ui\c_ui_slider_float.h" />
-    <ClCompile Include="D:\Users\hlop\source\repos\mass_rebind_ev0lve\ui\ui\c_ui_slider_int.cpp" />
-    <ClInclude Include="D:\Users\hlop\source\repos\mass_rebind_ev0lve\ui\ui\c_ui_slider_int.h" />
-    <ClCompile Include="D:\Users\hlop\source\repos\mass_rebind_ev0lve\ui\ui\c_ui_tab.cpp" />
-    <ClInclude Include="D:\Users\hlop\source\repos\mass_rebind_ev0lve\ui\ui\c_ui_tab.h" />
-    <ClCompile Include="D:\Users\hlop\source\repos\mass_rebind_ev0lve\ui\ui\c_ui_textbox.cpp" />
-    <ClInclude Include="D:\Users\hlop\source\repos\mass_rebind_ev0lve\ui\ui\c_ui_textbox.h" />
-    <ClCompile Include="D:\Users\hlop\source\repos\mass_rebind_ev0lve\ui\ui\c_ui_window.cpp" />
-    <ClInclude Include="D:\Users\hlop\source\repos\mass_rebind_ev0lve\ui\ui\c_ui_window.h" />
-    <ClInclude Include="D:\Users\hlop\source\repos\mass_rebind_ev0lve\ui\spinners.h" />
-    <ClCompile Include="D:\Users\hlop\source\repos\mass_rebind_ev0lve\ui\ui\c_ui_spinner.cpp" />
-    <ClInclude Include="D:\Users\hlop\source\repos\mass_rebind_ev0lve\ui\ui\c_ui_spinner.h" />
-    <ClCompile Include="D:\Users\hlop\source\repos\mass_rebind_ev0lve\ui\ui\c_ui_products.cpp" />
-    <ClInclude Include="D:\Users\hlop\source\repos\mass_rebind_ev0lve\ui\ui\c_ui_products.h" />
-    <ClInclude Include="D:\Users\hlop\source\repos\mass_rebind_ev0lve\ui\font.h" />
-    <ClInclude Include="json.hpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="ui\imgui.cpp" />
+    <ClCompile Include="ui\imgui_demo.cpp" />
+    <ClCompile Include="ui\imgui_draw.cpp" />
+    <ClCompile Include="ui\imgui_impl_dx9.cpp" />
+    <ClCompile Include="ui\imgui_impl_win32.cpp" />
+    <ClCompile Include="ui\ui\c_ui_colorpicker.cpp" />
+    <ClCompile Include="ui\ui\c_ui_dropdown.cpp" />
+    <ClCompile Include="ui\ui\c_ui_element.cpp" />
+    <ClCompile Include="ui\ui\c_ui_group.cpp" />
+    <ClCompile Include="ui\ui\c_ui_hotkey.cpp" />
+    <ClCompile Include="ui\ui\c_ui_label.cpp" />
+    <ClCompile Include="ui\ui\c_ui_listbox.cpp" />
+    <ClCompile Include="ui\ui\c_ui_multiselect.cpp" />
+    <ClCompile Include="ui\ui\c_ui_slider_float.cpp" />
+    <ClCompile Include="ui\ui\c_ui_slider_int.cpp" />
+    <ClCompile Include="ui\ui\c_ui_tab.cpp" />
+    <ClCompile Include="ui\ui\c_ui_textbox.cpp" />
+    <ClCompile Include="ui\ui\c_ui_window.cpp" />
+    <ClCompile Include="ui\ui\c_ui_spinner.cpp" />
+    <ClCompile Include="ui\ui\c_ui_products.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ui\font.h" />
+    <ClInclude Include="ui\icons.h" />
+    <ClInclude Include="ui\imconfig.h" />
+    <ClInclude Include="ui\imgui.h" />
+    <ClInclude Include="ui\imgui_impl_dx9.h" />
+    <ClInclude Include="ui\imgui_impl_win32.h" />
+    <ClInclude Include="ui\imgui_internal.h" />
+    <ClInclude Include="ui\imstb_rectpack.h" />
+    <ClInclude Include="ui\imstb_textedit.h" />
+    <ClInclude Include="ui\imstb_truetype.h" />
+    <ClInclude Include="ui\spinners.h" />
+    <ClInclude Include="ui\ui\c_ui.h" />
+    <ClInclude Include="ui\ui\c_ui_button.h" />
+    <ClInclude Include="ui\ui\c_ui_checkbox.h" />
+    <ClInclude Include="ui\ui\c_ui_colorpicker.h" />
+    <ClInclude Include="ui\ui\c_ui_dropdown.h" />
+    <ClInclude Include="ui\ui\c_ui_element.h" />
+    <ClInclude Include="ui\ui\c_ui_group.h" />
+    <ClInclude Include="ui\ui\c_ui_hotkey.h" />
+    <ClInclude Include="ui\ui\c_ui_label.h" />
+    <ClInclude Include="ui\ui\c_ui_listbox.h" />
+    <ClInclude Include="ui\ui\c_ui_multiselect.h" />
+    <ClInclude Include="ui\ui\c_ui_products.h" />
+    <ClInclude Include="ui\ui\c_ui_slider_float.h" />
+    <ClInclude Include="ui\ui\c_ui_slider_int.h" />
+    <ClInclude Include="ui\ui\c_ui_spinner.h" />
+    <ClInclude Include="ui\ui\c_ui_tab.h" />
+    <ClInclude Include="ui\ui\c_ui_textbox.h" />
+    <ClInclude Include="ui\ui\c_ui_window.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
