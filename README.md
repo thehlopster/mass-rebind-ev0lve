@@ -6,6 +6,7 @@ mass config rebind for ev0lve.xyz
 ## Acknowledgements
 * [panzerfaust](https://github.com/1337Ruppet/ev0lve_apex) GUI
 * [nlohmann](https://github.com/nlohmann/json) json
+* [bay](https://github.com/bay0) optimize patch find
 
 ### Download
-[1.0](https://github.com/thehlopster/mass-rebind-ev0lve/releases/download/1.0/Build.7z)
+[1.1](https://github.com/thehlopster/mass-rebind-ev0lve/releases/download/1.1/Build.7z)
