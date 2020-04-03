@@ -523,6 +523,10 @@
     <ClCompile Include="ui\imgui_draw.cpp" />
     <ClCompile Include="ui\imgui_impl_dx9.cpp" />
     <ClCompile Include="ui\imgui_impl_win32.cpp" />
+    <ClCompile Include="ui\imgui_widgets.cpp" />
+    <ClCompile Include="ui\ui\c_ui.cpp" />
+    <ClCompile Include="ui\ui\c_ui_button.cpp" />
+    <ClCompile Include="ui\ui\c_ui_checkbox.cpp" />
     <ClCompile Include="ui\ui\c_ui_colorpicker.cpp" />
     <ClCompile Include="ui\ui\c_ui_dropdown.cpp" />
     <ClCompile Include="ui\ui\c_ui_element.cpp" />
@@ -531,13 +535,13 @@
     <ClCompile Include="ui\ui\c_ui_label.cpp" />
     <ClCompile Include="ui\ui\c_ui_listbox.cpp" />
     <ClCompile Include="ui\ui\c_ui_multiselect.cpp" />
+    <ClCompile Include="ui\ui\c_ui_products.cpp" />
     <ClCompile Include="ui\ui\c_ui_slider_float.cpp" />
     <ClCompile Include="ui\ui\c_ui_slider_int.cpp" />
+    <ClCompile Include="ui\ui\c_ui_spinner.cpp" />
     <ClCompile Include="ui\ui\c_ui_tab.cpp" />
     <ClCompile Include="ui\ui\c_ui_textbox.cpp" />
     <ClCompile Include="ui\ui\c_ui_window.cpp" />
-    <ClCompile Include="ui\ui\c_ui_spinner.cpp" />
-    <ClCompile Include="ui\ui\c_ui_products.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ui\font.h" />

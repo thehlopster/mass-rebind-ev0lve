@@ -5,6 +5,7 @@
 #ifndef EV0LVE_APEX_CM_MAIN_H
 #define EV0LVE_APEX_CM_MAIN_H
 
+#define _SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING
 #include <Windows.h>
 #include <iostream>
 #include <fstream>
@@ -16,10 +17,10 @@
 #include <locale>
 #include <codecvt>
 #include "ui/imgui.h"
-#include "ui/imgui_internal.h"
-#include "ui/imgui_impl_win32.h"
-#include "ui/imgui_impl_dx9.h"
-#include "ui/ui/c_ui.h"
+#include "ui\imgui_internal.h"
+#include "ui\imgui_impl_win32.h"
+#include "ui\imgui_impl_dx9.h"
+#include "ui\ui\c_ui.h"
 
 #include "json.hpp"
 

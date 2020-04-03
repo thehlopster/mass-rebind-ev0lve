@@ -33,3 +33,7 @@
 *.tlog
 *.log
 *.pdb
+*.ipch
+.vs/mass_rebind_ev0lve/v16/.suo
+*.db
+*.opendb
